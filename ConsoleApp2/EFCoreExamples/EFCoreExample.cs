@@ -45,6 +45,7 @@ namespace ConsoleApp2.EFCoreExamples
         {
             var blog = new TblBlog
             {
+                Id = Guid.NewGuid().ToString(),
                 Title = title,
                 Author = author,
                 Content = content
