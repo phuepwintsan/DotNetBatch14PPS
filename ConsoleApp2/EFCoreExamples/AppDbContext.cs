@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DotNetBatch14PPS.ConsoleApp2;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2.EFCoreExamples
+namespace DotNetBatch14PPS.ConsoleApp2.EFCoreExamples
 {
     public class AppDbContext : DbContext
     {

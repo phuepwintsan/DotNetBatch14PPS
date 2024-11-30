@@ -1,5 +1,6 @@
-﻿using ConsoleApp2.Dtos;
-using Dapper;
+﻿using Dapper;
+using DotNetBatch14PPS.ConsoleApp2;
+using DotNetBatch14PPS.ConsoleApp2.Dtos;
 using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2.DapperExamples
+namespace DotNetBatch14PPS.ConsoleApp2.DapperExamples
 {
     public class DapperExample
     {

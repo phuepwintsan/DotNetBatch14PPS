@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ConsoleApp2.Dtos;
+using DotNetBatch14PPS.ConsoleApp2.Dtos;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 
-namespace ConsoleApp2.EFCoreExamples
+namespace DotNetBatch14PPS.ConsoleApp2.EFCoreExamples
 {
     public class EFCoreExample
     {

@@ -1,7 +1,10 @@
 ﻿using System.Data;
-using ConsoleApp3.AdoDotNetExamples;
-using ConsoleApp3.DapperExamples;
-using ConsoleApp3.EFCoreExamples;
+using DotNetBatch14PPS.ConsoleApp3.AdoDotNetExamples;
+using DotNetBatch14PPS.ConsoleApp3.DapperExamples;
+using DotNetBatch14PPS.ConsoleApp3.EFCoreExamples;
+
+
+
 
 
 //using ConsoleApp3.DapperExamples;

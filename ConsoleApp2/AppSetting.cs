@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Data.SqlClient;
 
-namespace ConsoleApp2
+namespace DotNetBatch14PPS.ConsoleApp2
 {
     public static class AppSetting
     {

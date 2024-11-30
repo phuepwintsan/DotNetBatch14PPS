@@ -5,11 +5,11 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetBatch14PPS.ConsoleApp", "DotNetBatch14PPS.ConsoleApp\DotNetBatch14PPS.ConsoleApp.csproj", "{9AD9B5F5-C2CD-4F83-A326-3A7AD750A9B3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{ACFED892-6B6A-4158-877C-F542AC3D7655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetBatch14PPS.ConsoleApp2", "ConsoleApp2\DotNetBatch14PPS.ConsoleApp2.csproj", "{ACFED892-6B6A-4158-877C-F542AC3D7655}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{CA7891B7-82FA-4FD3-8C31-BC1995AC84ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetBatch14PPS.ConsoleApp3", "ConsoleApp3\DotNetBatch14PPS.ConsoleApp3.csproj", "{CA7891B7-82FA-4FD3-8C31-BC1995AC84ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp4", "ConsoleApp4\ConsoleApp4.csproj", "{6C3F2206-1119-4E86-90E7-703334CB532A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetBatch14PPS.ConsoleApp4", "ConsoleApp4\DotNetBatch14PPS.ConsoleApp4.csproj", "{6C3F2206-1119-4E86-90E7-703334CB532A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

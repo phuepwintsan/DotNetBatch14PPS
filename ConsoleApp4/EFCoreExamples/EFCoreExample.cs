@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp4.EFCoreExamples
+namespace DotNetBatch14PPS.ConsoleApp4.EFCoreExamples
 {
     public class EFCoreExample : DbContext
     {

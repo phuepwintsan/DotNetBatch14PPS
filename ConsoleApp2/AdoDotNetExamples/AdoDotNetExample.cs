@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Data.SqlClient;
 
-namespace ConsoleApp2.AdoDotNetExamples
+namespace DotNetBatch14PPS.ConsoleApp2.AdoDotNetExamples
 {
     public class AdoDotNetExample
     {
@@ -111,7 +111,7 @@ namespace ConsoleApp2.AdoDotNetExamples
 
             SqlCommand cmd = new SqlCommand($"Delete from Tbl_Blog where BlogId = '{id}'", connection);
             int result = cmd.ExecuteNonQuery();
-            
+
             connection.Close();
 
         }

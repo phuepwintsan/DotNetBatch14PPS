@@ -1,7 +1,10 @@
 ﻿using System.Data;
-using ConsoleApp4.AdoDotNetExamples;
-using ConsoleApp4.DapperExamples;
-using ConsoleApp4.EFCoreExamples;
+using DotNetBatch14PPS.ConsoleApp4.AdoDotNetExamples;
+using DotNetBatch14PPS.ConsoleApp4.DapperExamples;
+using DotNetBatch14PPS.ConsoleApp4.EFCoreExamples;
+
+
+
 
 
 //using ConsoleApp3.DapperExamples;
@@ -23,10 +26,10 @@ DapperExample dapperExample = new DapperExample();
 //dapperExample.Update("5", "Bg5");
 
 EFCoreExample efCoreExample = new EFCoreExample();
-//efCoreExample.Read();
-//efCoreExample.Edit("F101C1E9-0255-4679-8A42-40BECF98ECEE");
-//efCoreExample.Create("b","b","b");
-//efCoreExample.Update("F101C1E9-0255-4679-8A42-40BECF98ECEE", "cc", "dd", "ee");
-//efCoreExample.Delete("F101C1E9-0255-4679-8A42-40BECF98ECEE");
+efCoreExample.Read();
+efCoreExample.Edit("F101C1E9-0255-4679-8A42-40BECF98ECEE");
+efCoreExample.Create("b", "b", "b");
+efCoreExample.Update("F101C1E9-0255-4679-8A42-40BECF98ECEE", "cc", "dd", "ee");
+efCoreExample.Delete("F101C1E9-0255-4679-8A42-40BECF98ECEE");
 
 

@@ -7,9 +7,9 @@ using System.Linq;
 using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
-using ConsoleApp3.Dtos;
+using DotNetBatch14PPS.ConsoleApp3.Dtos;
 
-namespace ConsoleApp3.DapperExamples
+namespace DotNetBatch14PPS.ConsoleApp3.DapperExamples
 {
     public class DapperExample
     {

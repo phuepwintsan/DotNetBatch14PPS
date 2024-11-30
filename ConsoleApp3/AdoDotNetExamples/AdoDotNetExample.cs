@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Data.SqlClient;
 
-namespace ConsoleApp3.AdoDotNetExamples
+namespace DotNetBatch14PPS.ConsoleApp3.AdoDotNetExamples
 {
     public class AdoDotNetExample
     {
@@ -56,7 +56,7 @@ namespace ConsoleApp3.AdoDotNetExamples
             adapter.Fill(dt);
             connection.Close();
 
-            if(dt.Rows.Count == 0)
+            if (dt.Rows.Count == 0)
             {
                 Console.WriteLine("No Data Found");
                 return;
@@ -79,7 +79,7 @@ namespace ConsoleApp3.AdoDotNetExamples
             {BlogTitle}'
            ,'{BlogAuthor}'
            ,'{BlogContent}')";
-            SqlConnection connection = new SqlConnection( _sqlConnectionStringBuilder.ConnectionString);    
+            SqlConnection connection = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
             connection.Open();
 
             SqlCommand cmd = new SqlCommand(query, connection);
@@ -124,7 +124,7 @@ namespace ConsoleApp3.AdoDotNetExamples
 
             SqlCommand cmd = new SqlCommand($"Delete from Tbl_Blog where BlogId = '{id}'", connection);
             int result = cmd.ExecuteNonQuery();
-            
+
             connection.Close();
 
             string message = result > 0 ? "Success Message" : "Failed Message";

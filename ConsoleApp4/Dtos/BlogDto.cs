@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp4.Dtos
+namespace DotNetBatch14PPS.ConsoleApp4.Dtos
 {
     public class BlogDto
     {

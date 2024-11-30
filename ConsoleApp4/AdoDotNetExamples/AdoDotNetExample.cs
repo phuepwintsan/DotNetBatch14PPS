@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Data.SqlClient;
 
-namespace ConsoleApp4.AdoDotNetExamples
+namespace DotNetBatch14PPS.ConsoleApp4.AdoDotNetExamples
 {
     public class AdoDotNetExample
     {
